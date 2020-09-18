@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>ITMD-361 Lab 4: Volunteer Form</title>
+  <title>ITMD-361</title>
 </head>
 <body>
-  <H2>Volunteer Form</h2>
+  <H2>Form</h2>
   <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post" id="volunteerform">
     <fieldset>
-      <legend><strong>My Info:</strong></legend>
+      <h2>My Info:</h2>
 	  <label for="first_name_field">First name:</label>
         <input type="text" id="first_name_field" name="first_name_field"><br><br>
       <label for="last_name_field">Last name:</label>
@@ -17,15 +17,15 @@
         <input type="tel" id="phone_field" name="phone_field" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
       <label for="email_field">Email Address:</label>
         <input type="email" id="email_field" name="email_field"><br><br>
-	  <fieldset>
-	  <legend>Gender:</legend>
+	  
+        <label for="gender_field">Gender:</label>
+        <br>
 	    <label for="gender_male">Male:</label>
-	      <input type="radio" id="gender_male" name="gender_field" value="Male"><br>
+	      <input type="radio" id="male" name="gender_field" value="Male"><br>
 	    <label for="gender_female">Female:</label>
-	      <input type="radio" id="gender_female" name="gender_field" value="Female"><br>
-	    <label for="gender_other">Other/Unspecified:</label>
-	      <input type="radio" id="gender_other" name="gender_field" value="Other/Unspecified"><br><br>
-	  </fieldset><br>
+	      <input type="radio" id="female" name="gender_field" value="Female"><br>
+	  
+	 <br>
 	  <label for="age_field">Age:</label>
         <select id="age_field" name="age_field">
 				<option value="Under 18">Under 18</option>
